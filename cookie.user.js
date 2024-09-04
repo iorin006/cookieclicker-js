@@ -16,7 +16,7 @@ setInterval(() => {
   Game.shimmers.forEach(function (shimmer) {
     if (shimmer.type == 'golden' && shimmer.wrath == 0) {
       shimmer.pop();
-      hogehoge++;k
+      hogehoge++;
       console.log('[info] あなたがいない間にゴールデンクッキー' + hogehoge + '回クリック');
     }
   });
