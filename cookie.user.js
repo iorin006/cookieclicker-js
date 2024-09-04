@@ -33,9 +33,9 @@ setInterval(() => {
 
 // クリックon
 function on() {
-  hogeInterval = setInterval(function(){
+  hogeInterval = setInterval(function () {
     Game.ClickCookie();
-  }, 0); 
+  }, 0);
   hoge = true;
 }
 
